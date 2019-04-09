@@ -1,0 +1,8 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+authors = ["liam looup <liam.looup@yandex.com>"]
+edition = "2018"
+
+[dependencies]
+tiny_http = "0.6.2"
