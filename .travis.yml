@@ -3,5 +3,9 @@ rust:
   - stable
   - beta
   - nightly
+env:
+  - TEST_PORT=5511
+  - TEST_PORT=6622
+  - TEST_PORT=7733
 before_script: cargo run &
 script: ./run-tests.sh
